@@ -1,0 +1,21 @@
+{
+  "name": "interview-plateform",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/jatinag2/vedio-call-interview-portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/jatinag2/vedio-call-interview-portfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jatinag2/vedio-call-interview-portfolio.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+   "build":"npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+   "start":"npm run start --prefix backend"
+  }
+}

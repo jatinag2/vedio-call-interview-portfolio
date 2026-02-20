@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function App() {
-  return <h1>hello</h1>;
+  return <h1>he</h1>;
 }
 
 export default App;
