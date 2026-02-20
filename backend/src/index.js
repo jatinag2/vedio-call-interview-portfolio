@@ -14,7 +14,7 @@ app.get("/health",(req,res)=>{
 })
 //make our app prduction ready
 
-if(process.env.NODE_env=="production"){
+if(process.env.NODE_ENV=="production"){
      app.use(express.static(path.join(__dirname,"../frontend/dist")))
 
      app.get("/{*any}",(req,res)=>{
